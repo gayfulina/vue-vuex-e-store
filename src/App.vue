@@ -12,7 +12,6 @@ export default {
   },
   data() {
     return {
-      isLoggedIn: false,
       products: [
         {
           id: 'p1',
