@@ -1,8 +1,8 @@
 export default {
   login(context) {
-    context.commit('setAuth', {isAuth: true})
+    context.commit('login')
   },
   logout(context) {
-    context.commit('setAuth', {isAuth: false})
+    context.commit('logout')
   }
 }
